@@ -1,0 +1,74 @@
+\begin{titlepage}
+   \begin{center}
+    \vspace{-1.8in}    
+    \begin{figure}
+        \centering
+        \includegraphics[height=4cm]{pre_figure/ntu_logo_bw.jpg}
+    \end{figure}     
+    \vspace*{2.5cm}
+    \begin{spacing}{2}
+    {\fontsize{18pt}{18pt}\selectfont \textmd{\textbf{Your title}}}
+    \end{spacing}
+       \vspace*{8.5cm}
+    \begin{spacing}{2}
+       {\fontsize{14pt}{14pt}\selectfont \textmd{You name\\}}
+       {\fontsize{14pt}{14pt}\selectfont \textmd{Civil and Environmental Engineering\\}}
+       {\fontsize{14pt}{14pt}\selectfont \textmd{Year}}\\
+    \end{spacing}     
+   \end{center}
+\end{titlepage}
+\clearpage
+\thispagestyle{empty}
+\mbox{} 
+\newpage
+\thispagestyle{empty} 
+\begin{center}
+\begin{spacing}{2}
+    {\fontsize{18pt}{18pt}\selectfont \textmd{\textbf{You title}}}
+\end{spacing}
+    \vspace*{6cm}
+    {\fontsize{14pt}{14pt}\selectfont \textmd{\textbf{Your name}}}
+    \vspace*{7.5cm}
+    {\fontsize{14pt}{14pt}\selectfont \textmd{School of Civil and Environmental Engineering}}
+    \vspace*{1.5cm}  
+\begin{spacing}{1.5}
+\normalsize
+    Confirmation of Candidature Report submitted to \\
+the Nanyang Technological University\\
+in partial fulfilment of the requirements for the degree of \\
+Doctor of Philosophy 
+\end{spacing}
+\vspace*{1.5cm}
+{\fontsize{14pt}{14pt}\selectfont \textmd{Year}}
+\end{center}
+\pagenumbering{gobble}
+\clearpage 
+\thispagestyle{empty}
+\mbox{} 
+\newpage
+\frontmatter
+\pagestyle{plain}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\listtablename}{ }
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{18pt}{\Large}
+\titlespacing*{\chapter}{0pt}{-20pt}{1cm}
+\input{Style/1_Statement of Originality}
+\input{Style/2_Supervisor Declaration Statement}
+\input{Style/3_Authorship Attribution Statement}
+\input{Style/4_acknowledgement}
+\input{Style/5_abstract}
+\begin{spacing}{1.2}
+    \tableofcontents
+\end{spacing}
+\clearpage
+\input{Style/7_List of publications}
+\input{Style/8_List of tables}
+\input{Style/9_List of figures}
+\input{Style/10_List of symbols}
+\mainmatter
+\pagenumbering{arabic}
+\pagestyle{plain}
+\fancyhf{}
+\cfoot{\thepage}

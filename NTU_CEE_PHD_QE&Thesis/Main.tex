@@ -1,0 +1,17 @@
+\documentclass[12pt,oneside]{book}
+\bibliographystyle{apacite}
+\input{head_file}
+\begin{document}
+\input{Style/Title}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{18pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-20pt}{1cm}
+\setlength{\parskip}{0.5cm}
+\begin{spacing}{1.5}
+\input{Body/chap_1}
+
+\end{spacing}
+\backmatter
+\cleardoublepage
+\bibliography{bib_here}
+\end{document}
