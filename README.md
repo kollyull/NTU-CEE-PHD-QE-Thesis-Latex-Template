@@ -1,4 +1,4 @@
-# NTU-CEE-PHD-QE-Thesis-Latex-Template
+# NTU CEE PHD QE Thesis Latex Template
 NTU CEE Ph.D. QE&amp;Thesis Latex Template
 
 # Introduction
